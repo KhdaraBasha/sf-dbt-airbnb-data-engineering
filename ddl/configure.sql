@@ -44,3 +44,9 @@ COPY INTO LISTINGS
 FROM @S3_STAGE
 FILES = ('listings.csv')
 ;
+
+select * from bookings;
+select * from hosts;
+select * from listings;
+
+
