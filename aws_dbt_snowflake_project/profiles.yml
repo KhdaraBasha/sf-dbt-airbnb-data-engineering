@@ -9,5 +9,5 @@ aws_dbt_snowflake_project:
       role: ACCOUNTADMIN
       warehouse: COMPUTE_WH
       database: AIRBNB
-      schema: STAGING
+      schema: DBT_SCHEMA
       threads: 8

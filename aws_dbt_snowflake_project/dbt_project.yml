@@ -18,4 +18,8 @@ snapshot-paths:
   - snapshots
 models:
   aws_dbt_snowflake_project:
-    +materialized: view
+  # demo:
+  #   +materialized: table
+    bronze:
+      +schema: bronze
+      +materialized: table
