@@ -1,0 +1,19 @@
+name: aws_dbt_snowflake_project
+version: 1.0.0
+config-version: 2
+profile: aws_dbt_snowflake_project
+model-paths:
+  - models
+analysis-paths:
+  - analyses
+test-paths:
+  - tests
+seed-paths:
+  - seeds
+macro-paths:
+  - macros
+snapshot-paths:
+  - snapshots
+models:
+  aws_dbt_snowflake_project:
+    +materialized: view

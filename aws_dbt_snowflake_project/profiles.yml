@@ -1,0 +1,10 @@
+aws_dbt_snowflake_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: AIRBNB
+      schema: STAGING
+      threads: 8
