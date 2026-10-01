@@ -1,7 +1,9 @@
 name: aws_dbt_snowflake_project
 version: 1.0.0
 config-version: 2
+
 profile: aws_dbt_snowflake_project
+
 model-paths:
   - models
 analysis-paths:

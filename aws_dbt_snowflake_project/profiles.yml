@@ -2,7 +2,10 @@ aws_dbt_snowflake_project:
   target: dev
   outputs:
     dev:
+      account: WEPOXKD-JC51351
       type: snowflake
+      user: KB20260921
+      password: Rasul!@#$%12345
       role: ACCOUNTADMIN
       warehouse: COMPUTE_WH
       database: AIRBNB
